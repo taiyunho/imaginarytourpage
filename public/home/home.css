@@ -1,0 +1,36 @@
+body {
+    background: url("korea.jpg") no-repeat center center fixed;
+    
+    
+    background-size:cover;
+    
+    
+}
+
+.container {
+    
+    text-align: center;
+    
+}
+h1 {
+    
+    font-family: 'Nanum Pen Script', cursive;
+    margin-top:20px;
+   
+}
+
+.option {
+    margin-top:60px;
+}
+
+button {
+    opacity: 80%;
+    width:30%;
+    
+    
+}
+
+span {
+    font-weight: 500;
+}
+

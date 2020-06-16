@@ -1,0 +1,35 @@
+body {
+    background: url("korea.jpg") no-repeat center center fixed;
+    background-size:cover;
+}
+
+h1 {
+    text-align: center;
+    margin-top:10px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.container {
+    text-align: center;
+    align-content: center;
+}
+
+iframe {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10vh;
+
+}
+
+.side {
+    position:fixed;
+    top:260px;
+    left:10px;
+}
+
+@media (max-width:600px){
+    iframe {
+        width: 80%;
+        margin-left:100px;
+    }
+}

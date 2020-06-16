@@ -1,0 +1,51 @@
+body {
+    background:url("lotte.jpg") no-repeat center center fixed;
+    background-size:cover;
+}
+
+.container {
+    
+    text-align: center;
+    
+}
+
+.side {
+    position:fixed;
+    top:260px;
+    left:10px;
+}
+
+img {
+    width:300px;
+    margin-left:0;
+    opacity: 100%;
+}
+
+.card {
+    margin-left:100px;
+    margin-top:40px;
+    margin-bottom:10px;
+    opacity: 85%;
+    border-left-color: white;
+    padding:0;
+    box-sizing: unset;
+}
+
+.card-title {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 40px;
+}
+
+.card-text {
+    font-weight:600;
+}
+
+@media (max-width:600px){
+    .card {
+        
+        width:80%;   
+    }
+    img {
+        width:80%;
+    }
+}
